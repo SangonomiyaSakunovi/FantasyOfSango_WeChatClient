@@ -1,2 +1,4 @@
 <!--pages/abc/cat/cat.wxml-->
-<text>pages/abc/cat/cat.wxml</text>
+<view>
+<image class="bg-image" mode="scaleToFill" src="https://i0.hdslb.com/bfs/article/bc4accee4fb709f8456aa12c487c29a6a55ad4fe.png@630w_1080h_progressive.webp"></image>
+</view>

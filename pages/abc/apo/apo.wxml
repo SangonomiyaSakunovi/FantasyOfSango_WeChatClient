@@ -1,2 +1,5 @@
 <!--pages/abc/apo/apo.wxml-->
-<text>pages/abc/apo/apo.wxml</text>
+<view>
+<image class="bg-image" mode="scaleToFill" src="https://i0.hdslb.com/bfs/article/b54bd3267d72eaca6a943beca47100f2d0dddbae.png@630w_1080h_progressive.webp"></image>
+</view>
+

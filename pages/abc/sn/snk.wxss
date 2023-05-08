@@ -1,1 +1,7 @@
-/* pages/abc/sn/snk.wxss */
+.bg-image
+{ 
+  width : 100%;
+  height : 100%;  
+  position: fixed;  
+  z-index: -1;  
+}

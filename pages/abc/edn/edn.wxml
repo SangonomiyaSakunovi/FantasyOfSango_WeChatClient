@@ -1,2 +1,5 @@
 <!--pages/abc/edn/edn.wxml-->
-<text>pages/abc/edn/edn.wxml</text>
+<view>
+<image class="bg-image" mode="scaleToFill" src="https://i0.hdslb.com/bfs/article/9a055977ad376b0cb355f4281b684d5b9ab95ad5.png@630w_1080h_progressive.webp"></image>
+</view>
+

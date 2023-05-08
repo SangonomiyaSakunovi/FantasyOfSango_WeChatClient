@@ -1,2 +1,6 @@
 <!--pages/abc/pinl/pink.wxml-->
-<text>pages/abc/pinl/pink.wxml</text>
+<view>
+<image class="bg-image" mode="scaleToFill" src="https://i0.hdslb.com/bfs/article/933c1591a6d069073bc201549ce89a63f3392da6.png@630w_1080h_progressive.webp"></image>
+</view>
+
+
