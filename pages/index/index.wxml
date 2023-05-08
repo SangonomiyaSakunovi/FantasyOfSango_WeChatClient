@@ -1,0 +1,40 @@
+<!--背景图片-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="http://m.qpic.cn/psc?/V5344VVU0RYra33RBfWh1i9yX40MvFNR/ruAMsa53pVQWN7FLK88i5gf*oSsB90L0OvD1q*Md9ooBNtpb6l08zHy0KFCq4JtFIkZ6wJmnkdEBsV6rSr6qJFKEt7LHs7*eDGktkcO6jrA!/b&bo=fAJUAgAAAAADBwo!&rf=viewer_4"></image>
+</view>
+
+<view>
+<swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+
+  <view class='specialities_layout'>
+      <view class='view_divider' />
+      <text class="specialities_text">人物</text>
+  </view>
+
+
+  <view class='function_container'>
+    <view class='item' wx:for="{{item}}" wx:for-index="idx" wx:for-item="item" >
+        <image class='function_img' src='{{item.pic_url}}' bindtap="OnJ" data-url='{{item.web_url}}'  /> 
+        <view class='function_name'>{{item.name}}</view>
+    </view>
+
+  </view>
+
+  <view class='divider' />
+
+<view class='specialities_layout'>
+    <view class='view_divider' />
+    <text class="specialities_text">喵喵喵</text>
+    <image class='bottom-image' src='http://photogz.photo.store.qq.com/psc?/V5344VVU0RYra33RBfWh1i9yX44fhytY/ruAMsa53pVQWN7FLK88i5oE8JCRuj*vytEH8*H7lnqskFd0hmWUqyoqzyQp0XMYLHhuZNs7HJt3se1bvH9Iszy0beDFRHpzyM0VVdSuKo2U!/b&bo=sAQfAwAAAAADB4o!&rf=viewer_4'/> 
+
+</view>
+

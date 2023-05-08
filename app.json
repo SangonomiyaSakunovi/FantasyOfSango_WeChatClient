@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/article/article",
+    "pages/board/board",
+    "pages/abc/cat/cat",
+    "pages/abc/apo/apo",
+    "pages/abc/draw/draw",
+    "pages/abc/edn/edn",
+    "pages/abc/sn/snk",
+    "pages/abc/pinl/pink"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/pages/icon/one1.png",
+        "selectedIconPath": "/pages/icon/one2.png"
+      },
+      {
+        "pagePath": "pages/article/article",
+        "text": "日志",
+        "iconPath": "/pages/icon/news1.png",
+        "selectedIconPath": "/pages/icon/news2.png"
+      },
+      {
+        "pagePath": "pages/board/board",
+        "text": "中心",
+        "iconPath": "/pages/icon/person1.png",
+        "selectedIconPath": "/pages/icon/person2.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
